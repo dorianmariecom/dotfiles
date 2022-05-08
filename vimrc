@@ -26,6 +26,7 @@ Plug 'vim-crystal/vim-crystal'
 Plug 'slim-template/vim-slim'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-ruby/vim-ruby'
+Plug 'dag/vim-fish'
 call plug#end()
 
 filetype plugin indent on
