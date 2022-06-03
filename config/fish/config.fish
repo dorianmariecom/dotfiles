@@ -7,16 +7,18 @@ end
 set -x EDITOR vim
 set -x VISUAL vim
 set -x HOMEBREW_NO_ANALYTICS 1
+set -x HOMEBREW_NO_ENV_HINTS 1
 
-set -x PATH "$HOME/.bin:$PATH"
-set -x PATH "/usr/local/sbin:$PATH"
-set -x PATH ".git/safe/../../bin:$PATH"
+fish_add_path "$HOME/.bin"
+fish_add_path "$HOME/.cargo/bin"
+fish_add_path /usr/local/sbin
+fish_add_path ".git/safe/../../bin:$PATH"
 
 alias xvim "xargs -o vim"
 alias be "bundle exec"
 alias glg "git ls-files | grep"
 
-alias ll "ls -al"
+alias ll "ls -lah"
 alias ln "ln -v"
 alias mkdir "mkdir -p"
 alias b "bundle"

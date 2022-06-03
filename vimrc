@@ -12,12 +12,15 @@ set nojoinspaces
 set nomodeline
 set noswapfile
 set nowritebackup
-set shell=/bin/sh
+set shell=/bin/bash
 set shiftwidth=2
+set spellfile=$HOME/.vim-spell-en.utf-8.add
 set tabstop=2
 set tags^=.git/tags
 set viminfo='20,<1000
 set whichwrap+=<,>,[,]
+
+let g:is_posix = 1
 
 call plug#begin()
 Plug 'bogado/file-line'
@@ -27,22 +30,5 @@ Plug 'slim-template/vim-slim'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-ruby/vim-ruby'
 Plug 'dag/vim-fish'
+Plug 'farmergreg/vim-lastplace'
 call plug#end()
-
-filetype plugin indent on
-syntax on
-
-fun! TrimWhitespace()
-  let l:save = winsaveview()
-  keeppatterns %s/\s\+$//e
-  call winrestview(l:save)
-endfun
-
-autocmd BufWritePre * :call TrimWhitespace()
-
-" Go to the last cursor location when a file is opened, unless this is a
-" git commit (in which case it's annoying)
-au BufReadPost *
-  \ if line("'\"") > 0 && line("'\"") <= line("$") && &filetype != "gitcommit" |
-  \    execute("normal `\"") |
-  \ endif

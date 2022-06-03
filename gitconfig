@@ -28,8 +28,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
-[merge]
-  ff = only
+  commentChar = ";"
 [commit]
   template = ~/.gitmessage
 [fetch]
@@ -38,3 +37,5 @@
   autosquash = true
 [diff]
   colorMoved = zebra
+[merge]
+  ff = only
