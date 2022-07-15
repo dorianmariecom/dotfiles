@@ -35,7 +35,3 @@
   prune = true
 [rebase]
   autosquash = true
-[diff]
-  colorMoved = zebra
-[merge]
-  ff = only

@@ -24,11 +24,12 @@ let g:is_posix = 1
 
 call plug#begin()
 Plug 'bogado/file-line'
-Plug 'tpope/vim-rails'
-Plug 'vim-crystal/vim-crystal'
-Plug 'slim-template/vim-slim'
-Plug 'pangloss/vim-javascript'
-Plug 'vim-ruby/vim-ruby'
 Plug 'dag/vim-fish'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'farmergreg/vim-lastplace'
+Plug 'pangloss/vim-javascript'
+Plug 'slim-template/vim-slim'
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-crystal/vim-crystal'
 call plug#end()

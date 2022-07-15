@@ -27,3 +27,8 @@ alias s "rspec"
 alias path 'echo $PATH | tr -s ":" "\n"'
 alias e "$EDITOR"
 alias v "$VISUAL"
+alias c "crystal"
+alias cf "crystal tool format"
+alias cs "crystal spec"
+alias cb "crystal build"
+alias cr "crystal run"
