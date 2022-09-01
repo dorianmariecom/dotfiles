@@ -2,7 +2,7 @@ set fish_greeting
 
 function fish_prompt
   echo (set_color green)(prompt_pwd)(set_color normal)(
-    if fish_is_root_user
+    if test (id -u) -eq 0
       echo "# "
     else
       echo "> "
