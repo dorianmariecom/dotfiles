@@ -32,4 +32,8 @@ Plug 'slim-template/vim-slim'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-crystal/vim-crystal'
+Plug 'tpope/vim-markdown'
+Plug 'MaxMEllon/vim-jsx-pretty'
 call plug#end()
+
+let g:markdown_fenced_languages = ['ruby']
