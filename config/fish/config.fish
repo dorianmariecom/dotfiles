@@ -15,6 +15,7 @@ set -x VISUAL vim
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x HOMEBREW_NO_ENV_HINTS 1
 set -x ANDROID_SDK_ROOT $HOME/Library/Android/sdk
+set -x RUBYOPT --yjit
 
 set -U fish_user_paths $HOME/.bin $fish_user_paths
 set -U fish_user_paths /usr/local/sbin $fish_user_paths

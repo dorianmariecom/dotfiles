@@ -24,16 +24,9 @@ let g:is_posix = 1
 
 call plug#begin()
 Plug 'bogado/file-line'
-Plug 'dag/vim-fish'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'farmergreg/vim-lastplace'
-Plug 'pangloss/vim-javascript'
-Plug 'slim-template/vim-slim'
-Plug 'tpope/vim-rails'
-Plug 'vim-ruby/vim-ruby'
-Plug 'vim-crystal/vim-crystal'
-Plug 'tpope/vim-markdown'
-Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 let g:markdown_fenced_languages = ['ruby']
