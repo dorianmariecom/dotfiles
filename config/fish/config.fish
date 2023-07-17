@@ -17,6 +17,7 @@ set -x HOMEBREW_NO_ENV_HINTS 1
 
 set -U fish_user_paths "$HOME/.bin" $fish_user_paths
 set -U fish_user_paths /usr/local/sbin $fish_user_paths
+set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
 
 alias xvim "xargs -o vim"
 alias be "bundle exec"

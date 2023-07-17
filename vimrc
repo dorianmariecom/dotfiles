@@ -14,11 +14,11 @@ set noswapfile
 set nowritebackup
 set shell=/bin/bash
 set shiftwidth=2
-set spellfile=$HOME/.vim-spell-en.utf-8.add
 set tabstop=2
 set tags^=.git/tags
 set viminfo='20,<1000
 set whichwrap+=<,>,[,]
+set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 let g:is_posix = 1
 
