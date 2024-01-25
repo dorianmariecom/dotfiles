@@ -18,7 +18,6 @@ set tabstop=2
 set tags^=.git/tags
 set viminfo='20,<1000
 set whichwrap+=<,>,[,]
-set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 let g:is_posix = 1
 
@@ -30,3 +29,5 @@ Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 let g:markdown_fenced_languages = ['ruby']
+autocmd FileType markdown set nospell
+autocmd BufNewFile,BufRead *.code set filetype=ruby
