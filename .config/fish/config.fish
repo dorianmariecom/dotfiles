@@ -23,5 +23,8 @@ alias be "bundle exec"
 alias glg "git ls-files | grep"
 alias ll "ls -lah"
 alias ln "ln -v"
+alias rake "bundle exec rake"
+alias rails "bundle exec rails"
+alias rspec "bundle exec rspec"
 
 source ~/.asdf/asdf.fish
