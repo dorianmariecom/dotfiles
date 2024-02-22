@@ -20,8 +20,6 @@ fish_add_path /opt/homebrew/sbin
 fish_add_path /usr/local/sbin
 
 alias be "bundle exec"
-alias bootstrap "bin/bootstrap"
-alias console "kamal app exec -i 'bin/rails console'"
 alias deploy "bin/deploy"
 alias dev "bin/dev"
 alias glg "git ls-files | grep"
