@@ -13,6 +13,7 @@ end
 set -x EDITOR vim
 set -x OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
 set -x VISUAL vim
+set -x LAGO_PATH /Users/dorianmariefr/src/getlago/lago
 
 fish_add_path $HOME/.bin
 fish_add_path /opt/homebrew/bin
@@ -30,5 +31,6 @@ alias rails "bundle exec rails"
 alias rake "bundle exec rake"
 alias rspec "bundle exec rspec"
 alias xvim "xargs -o vim"
+alias lago "docker-compose -f $LAGO_PATH/docker-compose.dev.yml"
 
 source ~/.asdf/asdf.fish
