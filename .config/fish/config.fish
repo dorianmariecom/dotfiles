@@ -31,6 +31,6 @@ alias rails "bundle exec rails"
 alias rake "bundle exec rake"
 alias rspec "bundle exec rspec"
 alias xvim "xargs -o vim"
-alias lago "docker-compose -f $LAGO_PATH/docker-compose.dev.yml"
+alias t "bundle exec rails test"
 
 source ~/.asdf/asdf.fish
