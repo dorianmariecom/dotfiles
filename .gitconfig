@@ -1,6 +1,7 @@
 [user]
   email = dorian@dorianmarie.com
   name = Dorian Marié
+  signingkey = BC2B7E7B
 [init]
   defaultBranch = main
 [push]
@@ -31,7 +32,10 @@
   commentChar = ";"
 [commit]
   template = ~/.gitmessage
+  gpgsign = true
 [fetch]
   prune = true
 [rebase]
   autosquash = true
+[gpg]
+  program = /opt/homebrew/bin/gpg

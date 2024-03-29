@@ -31,4 +31,4 @@ call plug#end()
 let g:markdown_fenced_languages = ['ruby']
 autocmd FileType markdown set nospell
 autocmd BufNewFile,BufRead *.code set filetype=ruby
-match ErrorMsg '\%>80v.\+'
+match ErrorMsg '\%>90v.\+'

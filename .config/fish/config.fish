@@ -14,6 +14,7 @@ set -x EDITOR vim
 set -x OBJC_DISABLE_INITIALIZE_FORK_SAFETY YES
 set -x VISUAL vim
 set -x LAGO_PATH /Users/dorianmariefr/src/getlago/lago
+set -x GPG_TTY (tty)
 
 fish_add_path $HOME/.bin
 fish_add_path /opt/homebrew/bin
