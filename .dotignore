@@ -1,0 +1,8 @@
+.git/.*
+.github/.*
+Gemfile.*
+bin/.*
+node_modules/.*
+package.json
+spec/.*
+yarn.lock
