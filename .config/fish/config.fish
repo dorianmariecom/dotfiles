@@ -30,8 +30,9 @@ alias ln "ln -v"
 alias pr "gh pr view --web"
 alias rails "bundle exec rails"
 alias rake "bundle exec rake"
+alias repo "gh repo view --web"
 alias rspec "bundle exec rspec"
-alias xvim "xargs -o vim"
 alias t "bundle exec rails test"
+alias xvim "xargs -o vim"
 
 source ~/.asdf/asdf.fish
