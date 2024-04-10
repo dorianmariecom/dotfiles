@@ -1,6 +1,7 @@
 .git/.*
 .github/.*
 Gemfile.*
+LICENSE
 bin/.*
 node_modules/.*
 package.json
