@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.3.1"
+ruby "3.3.3"
 
 gem "rspec"
 gem "rubocop-rails-omakase"
