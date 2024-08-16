@@ -24,6 +24,7 @@ fish_add_path /usr/local/sbin
 alias be "bundle exec"
 alias deploy "bin/deploy"
 alias dev "bin/dev"
+alias gist "gh gist create"
 alias glg "git ls-files | grep"
 alias importmap "bin/importmap"
 alias kamal "bin/kamal"
