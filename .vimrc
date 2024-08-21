@@ -26,9 +26,10 @@ Plug 'bogado/file-line'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'farmergreg/vim-lastplace'
 Plug 'sheerun/vim-polyglot'
+Plug 'whatyouhide/vim-lengthmatters'
+Plug 'bronson/vim-trailing-whitespace'
 call plug#end()
 
 let g:markdown_fenced_languages = ['ruby']
 autocmd FileType markdown set nospell
 autocmd BufNewFile,BufRead *.code set filetype=ruby
-match ErrorMsg '\%>90v.\+'
