@@ -20,6 +20,7 @@ fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
 fish_add_path /usr/local/sbin
 
+alias each "dorian each"
 alias gist "gh gist create"
 alias pr "gh pr view --web"
 alias rails "bin/rails"
