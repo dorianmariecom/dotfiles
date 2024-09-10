@@ -28,5 +28,6 @@ alias repo "gh repo view --web"
 alias rspec "bin/rspec"
 alias rubocop "bin/rubocop"
 alias xvim "xargs -o vim"
+alias whitespace "sed 's/ /·/g;s/\t/￫/g;s/\r/§/g;s/\$/¶/g'"
 
 source ~/.asdf/asdf.fish
