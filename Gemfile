@@ -16,3 +16,5 @@ gem "rubocop-rspec"
 gem "rubocop-rspec_rails"
 
 gem "rubocop-capybara"
+
+gem "dorian", "~> 2.5"
