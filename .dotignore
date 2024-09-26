@@ -1,10 +1,12 @@
 .git/.*
 .github/.*
+.rubocop.yml
 Gemfile.*
 LICENSE
+README.*
 bin/.*
 node_modules/.*
+package-lock.json
 package.json
 spec/.*
 yarn.lock
-.rubocop.yml
