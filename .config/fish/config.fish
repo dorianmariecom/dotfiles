@@ -22,11 +22,7 @@ fish_add_path /usr/local/sbin
 
 alias gist "gh gist create"
 alias pr "gh pr view --web"
-alias rails "bin/rails"
-alias rake "bin/rake"
 alias repo "gh repo view --web"
-alias rspec "bin/rspec"
-alias rubocop "bin/rubocop"
 alias xvim "xargs -o vim"
 alias whitespace "sed 's/ /·/g;s/\t/￫/g;s/\r/§/g;s/\$/¶/g'"
 
