@@ -1,11 +1,13 @@
 .DS_Store
 *.gem
+*.sqlite3*
 /.bundle
 /.env
 /.env.*.local
 /.env.prod
 /.env.staging
 /.expo
+/.kamal
 /app/assets/builds
 /config/*.key
 /config/credentials/*.key
