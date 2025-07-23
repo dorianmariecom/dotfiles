@@ -17,6 +17,8 @@
   ci = commit -v
   cm = commit
   cmm = commit -m
+  cmn = commit --no-verify
+  cmmn = commit --no-verify -m
   co = checkout
   cp = cherry-pick
   df = diff
