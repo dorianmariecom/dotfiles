@@ -28,6 +28,7 @@ Plug 'farmergreg/vim-lastplace'
 Plug 'sheerun/vim-polyglot'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'nono/lezer.vim'
+Plug 'github/copilot.vim'
 call plug#end()
 
 let g:markdown_fenced_languages = ['ruby']
