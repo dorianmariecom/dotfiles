@@ -1,7 +1,7 @@
 [user]
-  email = dorian@dorianmarie.com
-  name = Dorian Marié
-  signingkey = BC2B7E7B
+  email = dmarie@workelo.eu
+  name = dorian
+  signingkey = 8FC73FEFB5B0A34D
 [init]
   defaultBranch = main
 [push]
